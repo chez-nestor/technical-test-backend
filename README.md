@@ -11,21 +11,21 @@ Vous êtes libres de créer de nouveaux modèles ainsi que d'ajouter les champs 
 ```
 
 Apartment
-- `id` : String, UUID unique ;
+- `id` : String, ID unique ;
 - `name` : String, nom de l'appartement ;
 - `street` : String, rue de l'appartement ;
 - `zipCode` : String, code postal ;
 - `city` : String, ville ;
 
 Room
-- `id` : String, UUID unique ;
+- `id` : String, ID unique ;
 - `number` : Integer, numéro de la chambre ;
 - `area` : Float, surface de la chambre ;
 - `price` : Integer, prix de la chambre (en centimes) ;
 - une référence vers l'appartement dans laquelle elle se situe
 
 Client
-- `id` : String, UUID unique ;
+- `id` : String, ID unique ;
 - `firstName` : String, prénom ;
 - `lastName` : String, nom ;
 - `email` : String, adresse email ;
