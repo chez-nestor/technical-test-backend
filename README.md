@@ -2,9 +2,17 @@
 
 -----
 
-Le but de l'exercice est de créer un module de réservation de chambre pour le backoffice de Chez Nestor : nous gérons un parc d'appartements dans lesquels se trouve plusieurs chambres. Lorsque nos clients se rendent sur le site https://www.chez-nestor.com/ pour réserver une chambre dans l'un de nos appartements, ils doivent remplir un certain nombre d'informations avant de pouvoir payer leurs frais de service, qui valident leur réservation.
+Le but de l'exercice est de créer un module de réservation de chambre pour le backoffice de Chez Nestor : nous gérons un parc d'appartements. Nos clients, pour réserver une chambre dans l'un de nos appartements, doivent remplir un certain nombre d'informations afin de valider leur réservation.
 
-Vous devrez exposer une API qui permettra à un client de réserver une chambre, ainsi que de récupérer toutes les données du client, de la chambre, de l'appartement et tout ce qui vous semblera utile à l'utilisation des données par une interface utilisateur.
+Vous devrez **exposer une API** qui permettra à un **client** de **réserver une chambre**, ainsi que de **récupérer toutes les données du client, de la chambre, de l'appartement** et tout ce qui vous semblera utile à l'**utilisation des données par une interface utilisateur**. Pour chaque modèle, il faut qu'on puisse **créer**, **lire**, **modifier** et **supprimer** (CRUD) des données.
+
+De plus, vous veillerez à respecter les règles suivantes :
+- Un appartement contient au moins 1 chambre.
+- Un client ne peut pas réserver plusieurs chambres en même temps.
+- L'adresse email d'un client est unique.
+- Lorsqu'une chambre a été réservée par un client, elle ne peut plus être réservée.
+- Une chambre peut être réservée seulement si le client a rempli toutes ses informations.
+
 
 Vous êtes libres de créer de nouveaux modèles ainsi que d'ajouter les champs qui vous sembleront pertinents dans les modèles suivants :
 
@@ -37,7 +45,8 @@ Client
 
 **Technologie** : le langage, le framework, la base de données et plus généralement les outils sont libres, utilisez ce que vous connaissez le mieux ! :)
 
-Le sujet est volontairement extrêmement large. Le temps recommandé pour le traiter est de 5 heures, mais vous êtes libres de prendre plus ou moins de temps, nous vous demandons simplement de nous indiquer le temps que vous avez mis pour traiter le sujet par mail à dev[AT]chez-nestor.com ainsi qu'un lien vers un repository GitHub avec un README clair et détaillé dans lequel vous indiquerez les endpoints de votre API.
+Le sujet est volontairement extrêmement large. Le temps recommandé pour le traiter est de 5 heures, mais vous êtes libres de prendre plus ou moins de temps.
+Nous vous demandons simplement de nous indiquer le temps que vous avez mis pour traiter le sujet par mail à dev[AT]chez-nestor.com ainsi qu'un lien vers un repository GitHub avec un README clair et détaillé dans lequel vous indiquerez les endpoints de votre API.
 
 Enfin, pour la notation, voici quelques pistes de ce qui nous intéresse dans le rendu :
 
