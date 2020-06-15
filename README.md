@@ -52,7 +52,7 @@ Enfin, pour la notation, voici quelques pistes de ce qui nous intéresse dans le
 
 - ✨ Propreté de code : découpage, gestion d'erreurs, nommage des variables / fonctions, etc.
 - 📚 Utilisation de librairies / frameworks
-- ⚙️ Tests techniques
+- ⚙️ Tests (unitaires, d'intégration, etc.)
 - 🏦 Architecture de l'API utilisée (REST par exemple)
 - 📖 Base de données : définition des modèles, optimisation des requêtes
 - 🔀 Maîtrise de git : messages de commit, nombre de commits, etc.
