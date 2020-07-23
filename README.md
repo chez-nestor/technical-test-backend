@@ -46,7 +46,7 @@ Client
 **Technologie** : le langage, le framework, la base de données et plus généralement les outils sont libres, utilisez ce que vous connaissez le mieux ! :)
 
 Le sujet est volontairement extrêmement large. Le temps recommandé pour le traiter est de 5 heures, mais vous êtes libres de prendre plus ou moins de temps.
-Nous vous demandons simplement de nous indiquer le temps que vous avez mis pour traiter le sujet par mail à dev[AT]chez-nestor.com ainsi qu'un lien vers un repository GitHub avec un README clair et détaillé dans lequel vous indiquerez les endpoints de votre API.
+Nous vous demandons simplement de nous indiquer le temps que vous avez mis pour traiter le sujet ainsi qu'un lien vers un repository GitHub avec un README clair et détaillé dans lequel vous indiquerez les endpoints de votre API.
 
 Enfin, pour la notation, voici quelques pistes de ce qui nous intéresse dans le rendu :
 
