@@ -7,11 +7,9 @@ Le but de l'exercice est de créer un module de réservation de chambre pour le 
 Vous devrez **exposer une API NodeJS** qui permettra à un **client** de **réserver une chambre**, ainsi que de **récupérer toutes les données du client, de la chambre, de l'appartement** et tout ce qui vous semblera utile à l'**utilisation des données par une interface utilisateur**. Pour chaque modèle, il faut qu'on puisse **créer**, **lire**, **modifier** et **supprimer** (CRUD) des données.
 
 De plus, vous veillerez à respecter les règles suivantes :
-- Un appartement contient au moins 1 chambre.
 - Un client ne peut pas réserver plusieurs chambres en même temps.
 - L'adresse email d'un client est unique.
 - Lorsqu'une chambre a été réservée par un client, elle ne peut plus être réservée.
-- Une chambre peut être réservée seulement si le client a rempli toutes ses informations.
 
 
 Vous êtes libres de créer de nouveaux modèles ainsi que d'ajouter les champs qui vous sembleront pertinents dans les modèles suivants :
