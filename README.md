@@ -11,7 +11,7 @@ De plus, vous veillerez à respecter les règles suivantes :
 - Lorsqu'une chambre a été réservée par un client, elle ne peut plus être réservée.
 
 
-**Technologies recommendées** : 
+**Technologies recommandées** : 
 
 - NestJs
 - Concernant la base de données et plus généralement les autres outils, le choix est libre.
